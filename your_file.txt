@@ -1,0 +1,9 @@
+
+                   tables_df = spark.sql("SHOW TABLES")
+                    for row in tables_df.collect():
+                        print(f"Table name: {row['tableName']}")
+                   
+                   tables_df = spark.sql("SHOW TABLES")
+                    for row in tables_df.collect():
+                        print(f"Table name: {row['tableName']}")
+                   
